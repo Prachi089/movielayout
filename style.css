@@ -1,0 +1,72 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 35px;
+  padding: 10px 155px 0px 155px;
+  border-style: none;
+}
+
+.flex-item {
+  height: 620px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-style: none;
+  margin-bottom: 35px;
+}
+
+#content-1 #p-1 {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  font-size: 30px;
+}
+
+#content-1 p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#btn-1 {
+  background-color: #70badd;
+  width: 114px;
+  height: 42px;
+  border: none;
+  font-weight: bold;
+}
+
+/* Image styles */
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6 {
+  height: 400px;
+  width: 350px;
+  background-size: contain;
+  border-style: none;
+}
+
+#img-1 {
+  background-image: url(https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg);
+}
+
+#img-2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCayFi3fxZy1bycCUXICVB4wUF-39lS4TXGo4fo_hsJ1o4KVOdOoKQ0uysg3cjPCA4X50&usqp=CAU);
+  background-size: cover;
+}
+
+#img-3 {
+  background-image: url(https://m.media-amazon.com/images/S/pv-target-images/6f25c48b55862e45e347248158032850e519fdab17312f4f3e824e24b9f39ff3.jpg);
+}
+
+#img-4 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfoqFFj6vRBeMym5HHeBJuqp8W08cRdgw15BeQ24mgKNrkZdwmEHccuSzOOh6FxLI39M&usqp=CAU);
+}
+
+#img-5 {
+  background-image: url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kgf-chapter-2-et00326506-11-04-2022-11-16-18.jpg);
+}
+
+#img-6 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BYjc1MzJiYTMtY2UxNS00NjBjLWJiOWItY2U2MmYwNWQzMzU4XkEyXkFqcGc@._V1_.jpg);
+}
